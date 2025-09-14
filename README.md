@@ -7,7 +7,7 @@ El objetivo fue implementar la gestión de 3 CRUDs principales en un restaurante
 
 ## 🚀 Tecnologías utilizadas
 
-- **Java 17**
+- **Java 23**
 - **Servlets y JSP** (Jakarta EE)
 - **JSTL** para la vista dinámica
 - **DAO Pattern** para acceso a datos
@@ -15,24 +15,6 @@ El objetivo fue implementar la gestión de 3 CRUDs principales en un restaurante
 - **Apache Tomcat 10.1.x** como servidor de aplicaciones
 - **Maven** como gestor de dependencias
 - **CSS** para el estilo de los formularios y tablas
-
----
-
-## 📂 Estructura del proyecto
-
-src/
-├── main/
-│ ├── java/
-│ │ ├── com.example.dao/ # Clases DAO
-│ │ ├── com.example.model/ # Clases modelo (Cliente, Mesa, Reserva)
-│ │ ├── com.example.servlet/ # Servlets (Create, Edit, Delete, List)
-│ │ └── com.example.utils/ # DBUtil (gestión de conexión)
-│ └── webapp/
-│ ├── clientes/ # JSPs de clientes
-│ ├── mesas/ # JSPs de mesas
-│ ├── reservas/ # JSPs de reservas
-│ ├── static/css/ # Estilos CSS
-│ └── index.jsp
 
 ---
 
